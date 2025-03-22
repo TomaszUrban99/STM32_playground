@@ -1,0 +1,36 @@
+!SESSION 2025-03-22 22:21:59.009 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-22 22:22:14.387
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-22 22:22:14.388
+!MESSAGE Log4j2 initialized with config file /home/tomasz/Documents/Projekty/STM32_Disc/STM32_playground/B-L4S5I-IOT01A/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-22 22:22:17.826
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-22 22:25:19.061
+!MESSAGE Indexed 'HTS221' (2 sources, 53 headers) in 1.29 sec: 1,948 declarations; 2,834 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-03-22 22:35:31.519 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-22 22:36:44.744
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-22 22:36:44.747
+!MESSAGE Log4j2 initialized with config file /home/tomasz/Documents/Projekty/STM32_Disc/STM32_playground/B-L4S5I-IOT01A/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-22 22:36:55.511
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-22 22:41:43.638
+!MESSAGE Indexed 'HTS221' (4 sources, 54 headers) in 2.26 sec: 1,978 declarations; 2,935 references; 0 unresolved inclusions; 3 syntax errors; 34 unresolved names (0.69%)
