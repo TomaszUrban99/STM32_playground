@@ -1,6 +1,6 @@
-22:43:59 **** Incremental Build of configuration Debug for project HTS221 ****
+21:24:33 **** Incremental Build of configuration Debug for project HTS221 ****
 make -j8 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32L4PLUS -DSTM32L4S5VITx -c -I../Inc -I"/home/tomasz/Documents/Projekty/STM32_Disc/STM32_playground/B-L4S5I-IOT01A/HTS221/cmsis/Device/ST/STM32L4xx/Include" -I"/home/tomasz/Documents/Projekty/STM32_Disc/STM32_playground/B-L4S5I-IOT01A/HTS221/cmsis/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32L4PLUS -DSTM32L4S5VITx -c -I../Inc -I"/home/tomasz/Documents/Projekty/STM32_Disc/STM32_playground/B-L4S5I-IOT01A/HTS221/cmsis/Device/ST/STM32L4xx/Include" -I"/home/tomasz/Documents/Projekty/STM32_Disc/STM32_playground/B-L4S5I-IOT01A/HTS221/cmsis/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/i2c.d" -MT"Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/i2c.o"
 arm-none-eabi-gcc -o "HTS221.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/tomasz/Documents/Projekty/STM32_Disc/STM32_playground/B-L4S5I-IOT01A/HTS221/STM32L4S5VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="HTS221.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: HTS221.elf
  

@@ -1,0 +1,11 @@
+#ifndef I2C_H_
+#define I2C_H_
+
+#include <stm32l4s5xx.h>
+
+struct i2c {
+};
+
+void init_i2c ( struct i2c *self);
+
+#endif

@@ -1,0 +1,13 @@
+/*
+ * i2c_node.h
+ *
+ *  Created on: Mar 25, 2025
+ *      Author: tomasz
+ */
+
+#ifndef I2C_NODE_H_
+#define I2C_NODE_H_
+
+
+
+#endif /* I2C_NODE_H_ */

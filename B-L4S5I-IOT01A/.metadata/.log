@@ -34,3 +34,33 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-03-22 22:41:43.638
 !MESSAGE Indexed 'HTS221' (4 sources, 54 headers) in 2.26 sec: 1,978 declarations; 2,935 references; 0 unresolved inclusions; 3 syntax errors; 34 unresolved names (0.69%)
+!SESSION 2025-03-25 20:15:58.955 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-25 20:16:06.821
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-25 20:16:06.822
+!MESSAGE Log4j2 initialized with config file /home/tomasz/Documents/Projekty/STM32_Disc/STM32_playground/B-L4S5I-IOT01A/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-25 20:16:12.620
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-03-25 21:17:06.957 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tomasz/Documents/Projekty/STM32_Disc/STM32_playground/B-L4S5I-IOT01A -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-25 21:17:11.166
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-25 21:17:11.175
+!MESSAGE Log4j2 initialized with config file /home/tomasz/Documents/Projekty/STM32_Disc/STM32_playground/B-L4S5I-IOT01A/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-25 21:17:16.011
+!MESSAGE Started RMI Server, listening on port 41337

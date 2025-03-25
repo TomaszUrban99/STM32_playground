@@ -1,0 +1,7 @@
+#ifndef HTS221_H_
+#define HTS221_H_
+
+#include "i2c.h"
+
+
+#endif

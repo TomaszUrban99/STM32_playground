@@ -1,0 +1,27 @@
+#ifndef I2C_H_
+#define I2C_H_
+
+#include <stm32l4s5xx.h>
+
+/* Addressing modes */
+#define I2C_BITS_ADDR_7		0
+#define I2C_BITS_ADDR_10	1
+
+/* Speed modes */
+#define I2C_STANDARD_MODE 		0
+
+/*!
+ *
+ */
+struct i2c {
+
+	uint8_t _addressing_mode : BITS_ADDR_7;
+	uint8_t _speed_mode : I2C_STANDARD_MODE;
+
+	uint32_t _interface : I2C1;
+
+};
+
+void init_i2c (struct i2c *self);
+
+#endif

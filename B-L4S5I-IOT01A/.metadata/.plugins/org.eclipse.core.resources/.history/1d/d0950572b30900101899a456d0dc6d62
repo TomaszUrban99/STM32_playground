@@ -1,0 +1,8 @@
+#include "i2c.h"
+
+void init_i2c (struct i2c *self){
+
+	/* Configure SCLH and SCLL in the I2C_TIMINGR */
+}
+
+
